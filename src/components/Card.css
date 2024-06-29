@@ -1,0 +1,57 @@
+ .image-holder {  
+    width: 175px;  
+    height: 204px;  
+    }  
+.image-holder img  {  
+    width: 100%;  /* Ensure the image takes the full width of the holder */
+    height: 100%;  /* Fix the height to match the holder's width */
+    object-fit: cover;
+    border-radius: 7px;
+    }  
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px ;
+    
+}
+hr{
+  width: 80%;
+  color: #ececec35;
+  outline: none;
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+.info{
+    font-size: 10px;
+    margin-left: 30px;
+    width: 50%;
+    color: #2B283A;
+}
+.info .location{
+    display: flex;
+    margin: 10px 0;
+}
+.location i{
+    color: #F55A5A;
+}
+.location p {
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-left: 3px;
+    margin-right: 6px;
+}
+.location a{
+    color: #918E9B;
+}
+.info h1{
+    margin-bottom: 5px;
+}
+.info h4{
+    margin-bottom: 3px;
+}
+.info p{
+    font-weight: 100;
+}

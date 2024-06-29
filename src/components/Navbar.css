@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    background-color: #F55A5A;
+    color:#fff;
+    width: 100%;
+    justify-content: center;
+    padding: 16px 0;
+}
+.navbar i {
+    margin: 0 5px;
+
+}
+.navbar p {
+    font-weight: 200;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+
+}
